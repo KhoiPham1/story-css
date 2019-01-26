@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+/*h1{*/
+    /*text-align: center;*/
+/*}*/
+.taskbar{
+    background: lightpink;
+    position: fixed;
+    margin: 1px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    bottom: 0;
+}
+.taskbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    position: fixed;
+    background: grey;
+    left: 0;
+    text-align: center;
+}
+div{
+    float: left;
+    width: 70%;
+    background: darkblue;
+}
+.center{
+    width: 100%;
+    float: left;
+    /*margin: 5px;*/
+    height: 400px;
+    background: grey;
+    padding: 5px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+img{
+    margin: 5px;
+    padding: 1px;
+}
+.left{
+    float: left;
+    width: 14%;
+    background: brown;
+    margin-right: 5px ;
+    height: 1200px;
+}
+.right{
+    float: left;
+    width: 14%;
+    margin-left: 13px;
+    background: brown;
+    height: 1200px;
+}
+.story{
+    float: left;
+}
+
